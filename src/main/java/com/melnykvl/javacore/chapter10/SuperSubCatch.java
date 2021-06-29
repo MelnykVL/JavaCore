@@ -5,11 +5,11 @@ public class SuperSubCatch {
         try {
             int a = 0;
             int b = 42/a;
+        } catch (ArithmeticException e) {
+            System.out.println("There will error");
         } catch (Exception e) {
             System.out.println("Exception is caught");
         }
-//        } catch (ArithmeticException e) {
-//            System.out.println("There will error");
-//        }
+
     }
 }
