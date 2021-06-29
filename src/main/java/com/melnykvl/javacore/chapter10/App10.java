@@ -1,7 +1,0 @@
-package main.java.com.melnykvl.javacore.chapter10;
-
-public class App10 {
-    public static void main(String[] args) {
-        System.out.println("Hello");
-    }
-}
