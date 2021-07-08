@@ -47,13 +47,13 @@ public class WriteServer {
 
     public static void main(String[] args) throws Exception {
 
-//        if (args.length == 1) {
+        if (args.length == 1) {
             ds = new DatagramSocket(serverPort);
             TheServer();
-//        } else {
-//            ds = new DatagramSocket(clientPort);
-//            TheClient();
-//        }
+        } else {
+            ds = new DatagramSocket(clientPort);
+            TheClient();
+        }
 
     }
 
