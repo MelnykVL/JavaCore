@@ -81,7 +81,7 @@ public class App_Task_1 {
     public static void main(String[] args) {
 
         Foo foo = new Foo();
-        Semaphore sem = new Semaphore(1);
+        Semaphore sem = new Semaphore(1, true);
 
         for (int i = 0; i < 100; i++) {
             new A(sem, foo);
