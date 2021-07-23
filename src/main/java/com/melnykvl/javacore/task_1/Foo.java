@@ -1,6 +1,7 @@
 package main.java.com.melnykvl.javacore.task_1;
 
 class Foo {
+
     public void first(Runnable r) {
         System.out.print("first");
     }
@@ -10,4 +11,5 @@ class Foo {
     public void third(Runnable r) {
         System.out.print("third\n");
     }
+
 }
