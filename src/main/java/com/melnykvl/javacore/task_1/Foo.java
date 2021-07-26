@@ -1,15 +1,39 @@
 package main.java.com.melnykvl.javacore.task_1;
 
+import java.util.concurrent.Semaphore;
+
 class Foo {
 
+    Semaphore sem1 = new Semaphore(0);
+    Semaphore sem2 = new Semaphore(0);
+
     public void first(Runnable r) {
-        System.out.print("first");
+        try {
+            System.out.print("first");
+        } finally {
+            sem1.release();
+        }
     }
     public void second(Runnable r) {
-        System.out.print("second");
+        try {
+            sem1.acquire();
+            System.out.print("second");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            sem2.release();
+        }
     }
     public void third(Runnable r) {
-        System.out.print("third\n");
+        try {
+            sem2.acquire();
+            System.out.println("third");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            sem1.release();
+            sem2.release();
+        }
     }
 
 }
