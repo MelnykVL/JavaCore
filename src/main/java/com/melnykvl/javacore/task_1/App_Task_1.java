@@ -1,7 +1,6 @@
 package main.java.com.melnykvl.javacore.task_1;
 
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
 
 public class App_Task_1 {
 
@@ -17,14 +16,6 @@ public class App_Task_1 {
 
         all.join();
 
-    }
-
-    public static void waitALittle() {
-        try {
-            Thread.sleep(200);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
 }
