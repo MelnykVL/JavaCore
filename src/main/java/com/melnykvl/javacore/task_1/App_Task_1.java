@@ -17,30 +17,6 @@ public class App_Task_1 {
 
         all.join();
 
-//        for (int i = 0; i < 50; i++) {
-//            CompletableFuture future1 = CompletableFuture.runAsync(() -> foo.first(() -> { }));
-//            CompletableFuture future3 = CompletableFuture.runAsync(() -> foo.third(() -> { }));
-//            CompletableFuture future2 = CompletableFuture.runAsync(() -> foo.second(() -> { }));
-//
-//            CompletableFuture all = CompletableFuture.allOf(future3, future1, future2);
-//
-//            try {
-//                all.get();
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            } catch (ExecutionException e) {
-//                e.printStackTrace();
-//            }
-//        }
-
-//        for (int i = 0; i < 50; i++) {
-//            CompletableFuture future1 = CompletableFuture.runAsync(() -> foo.first(() -> { }));
-//            CompletableFuture future3 = CompletableFuture.runAsync(() -> foo.third(() -> { }));
-//            CompletableFuture future2 = CompletableFuture.runAsync(() -> foo.second(() -> { }));
-//
-//            waitALittle();
-//        }
-
     }
 
     public static void waitALittle() {
