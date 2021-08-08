@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter20;
+package com.melnykvl.javacore.chapter20;
 
 public class PrintfDemo {
     public static void main(String[] args) {

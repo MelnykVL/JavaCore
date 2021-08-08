@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter22;
+package com.melnykvl.javacore.chapter22;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

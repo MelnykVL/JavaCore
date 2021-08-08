@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter22;
+package com.melnykvl.javacore.chapter22;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

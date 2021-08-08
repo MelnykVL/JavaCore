@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter29;
+package com.melnykvl.javacore.chapter29;
 
 import java.util.ArrayList;
 import java.util.stream.IntStream;

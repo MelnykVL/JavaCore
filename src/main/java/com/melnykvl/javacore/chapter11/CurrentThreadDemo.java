@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter11;
+package com.melnykvl.javacore.chapter11;
 
 public class CurrentThreadDemo {
     public static void main(String[] args) {

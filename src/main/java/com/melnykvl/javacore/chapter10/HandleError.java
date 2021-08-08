@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter10;
+package com.melnykvl.javacore.chapter10;
 
 import java.util.Random;
 

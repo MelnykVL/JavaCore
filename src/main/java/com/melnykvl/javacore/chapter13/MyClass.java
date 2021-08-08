@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter13;
+package com.melnykvl.javacore.chapter13;
 
 public class MyClass {
 

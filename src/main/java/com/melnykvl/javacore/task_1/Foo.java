@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.task_1;
+package com.melnykvl.javacore.task_1;
 
 import java.util.concurrent.Semaphore;
 

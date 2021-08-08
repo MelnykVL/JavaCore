@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter11;
+package com.melnykvl.javacore.chapter11;
 
 class A {
     synchronized void foo(B b) {

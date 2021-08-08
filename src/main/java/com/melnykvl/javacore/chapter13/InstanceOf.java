@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter13;
+package com.melnykvl.javacore.chapter13;
 
 class A {
     int i, j;

@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter13;
+package com.melnykvl.javacore.chapter13;
 
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;

@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter15;
+package com.melnykvl.javacore.chapter15;
 
 interface NumericTest2 {
     boolean test(int n, int d);

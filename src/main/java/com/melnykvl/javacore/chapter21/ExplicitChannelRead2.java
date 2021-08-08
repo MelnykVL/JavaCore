@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter21;
+package com.melnykvl.javacore.chapter21;
 
 import java.io.FileInputStream;
 import java.io.IOException;

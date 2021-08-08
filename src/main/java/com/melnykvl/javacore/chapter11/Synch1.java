@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter11;
+package com.melnykvl.javacore.chapter11;
 
 class Callme1 {
     void call(String msg) {

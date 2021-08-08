@@ -1,4 +1,4 @@
-package main.java.com.melnykvl.javacore.chapter28;
+package com.melnykvl.javacore.chapter28;
 
 import java.util.concurrent.locks.ReentrantLock;
 
